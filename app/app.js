@@ -3,7 +3,7 @@ angular.module('site', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'n
 angular.module('site').config(function ($stateProvider, $urlRouterProvider) {
 
   /* Add New States Above */
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/contact');
 
 });
 
